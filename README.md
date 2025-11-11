@@ -1,7 +1,12 @@
 # flask-resume-analyzer
 The following repository contains the code for an application named "Resume Analyzer" which is created using python and FastAPI
 
+<<<<<<< HEAD
 App Name: Resume Analyzer + Job Recommender Tech Stack:
+=======
+App Name: Resume Analyzer + Job Recommender
+Tech Stack:
+>>>>>>> c70bf3b31e4e06c8a4741cbb52de04b0dbc572b9
 
 Flask for backend
 
