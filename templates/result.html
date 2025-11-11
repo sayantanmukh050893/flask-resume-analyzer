@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Results</title>
+</head>
+<body>
+  <h2>Extracted Skills:</h2>
+  <ul>
+    {% for skill in skills %}
+      <li>{{ skill }}</li>
+    {% endfor %}
+  </ul>
+
+  <h3>Summary:</h3>
+  <p>{{ summary }}</p>
+
+  <h3>Suggested Job Openings:</h3>
+  <ul>
+    {% for job in jobs %}
+      <li><a href="{{ job.link }}" target="_blank">{{ job.title }}</a> - {{ job.company }} ({{ job.location }})</li>
+    {% endfor %}
+  </ul>
+
+  <a href="/">Back</a>
+</body>
+</html>
